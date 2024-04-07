@@ -1,5 +1,5 @@
 # Enhanced Invertible Rescaling Network for Neural Video Delivery
-This is the Pytorch implementation of paper: Enhanced Invertible Rescaling Network.
+This is the Pytorch implementation of paper: Enhanced Invertible Rescaling Network for Neural Video Delivery.
 ## Requirement
 - Python 3.8(Recommend to use Anaconda)
 - PyTorch >= 1.5

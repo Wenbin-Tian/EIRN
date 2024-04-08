@@ -30,3 +30,15 @@ home/lee/datasets/DIV2K
     └── X4
 ```
 you can use `datasets_generation/extract_subimages.py` to generate patches, then put them `codes/dataset/`
+## Train
+We will use `train.py` for our experiments. First set a config yml file in options/train/, take x4 as an example, then run as following:
+```
+python train.py -opt options/train/train_IRN_x4.yml
+```
+## Test
+We will use `test.py` for our experiments. First set a config yml file in options/test/, take x4 as an example, then run as following:
+```
+python test.py -opt options/test/test_IRN_x4.yml
+```
+## Acknowledgement
+The code is based on [IRN](https://github.com/pkuxmq/Invertible-Image-Rescaling) and [BasicSR](https://github.com/xinntao/BasicSR).

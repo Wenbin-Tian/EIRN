@@ -9,7 +9,8 @@ This is the Pytorch implementation of paper: Enhanced Invertible Rescaling Netwo
 or you can use our environments(eirn_env.yml), it can be found EIRN/, then `conda env create -f eirn_env.yml`
 ## Dataset
 The dataset(VSD4K) can be founded in [CaFM-Pytorch-ICCV2021](https://github.com/Neural-video-delivery/CaFM-Pytorch-ICCV2021)
-Then download and organize
+
+Then download and organize data like:
 ```
 path/datasets/DIV2K
 ├── DIV2K_train_HR
@@ -28,3 +29,4 @@ home/lee/datasets/DIV2K
     └── X3
     └── X4
 ```
+you can use `datasets_generation/extract_subimages.py` to generate patches, then put them `codes/dataset/`

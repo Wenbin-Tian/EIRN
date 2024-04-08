@@ -6,7 +6,7 @@ This is the Pytorch implementation of paper: Enhanced Invertible Rescaling Netwo
 - NVIDIA GPU + CUDA
 - Python packages: pip install numpy opencv-python lmdb pyyaml tb-nightly future
 
-or you can use our environments(eirn_env.yml), it can be found EIRN/, then `conda env create -f eirn_env.yml`
+or you can use our environments(eirn_env.yml), it can be found in repository, then `conda env create -f eirn_env.yml`
 ## Dataset
 The dataset(VSD4K) can be founded in [CaFM-Pytorch-ICCV2021](https://github.com/Neural-video-delivery/CaFM-Pytorch-ICCV2021)
 
